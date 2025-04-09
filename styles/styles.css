@@ -109,9 +109,10 @@
   z-index: 0;
   margin-top: 25px;
   margin-bottom: 45px;
+  color: #fff;
 }
 #es-rc #es-rc-content .es-change__background {
-  background-color: #FBEA71;
+  background-color: #f16e20;
   position: absolute;
   width: 140%;
   height: 110%;
@@ -120,13 +121,16 @@
   right: 0;
   z-index: -1;
 }
-#es-rc #es-rc-content .es-change__circle1 {
+#es-rc #es-rc-content .es-change__leaf1 {
   display: none;
 }
-#es-rc #es-rc-content .es-change__circle2 {
+#es-rc #es-rc-content .es-change__leaf2 {
   display: none;
 }
-#es-rc #es-rc-content .es-change__circle3 {
+#es-rc #es-rc-content .es-change__leaf3 {
+  display: none;
+}
+#es-rc #es-rc-content .es-change__leaf4 {
   display: none;
 }
 #es-rc #es-rc-content .es-change__wrapper {
@@ -146,8 +150,8 @@
 #es-rc #es-rc-content .es-change__wrapper .es-change__single-dot {
   width: 20px;
   height: 20px;
-  background-color: #F7B800;
-  border: 1px solid #F7B800;
+  background-color: #fff;
+  border: 1px solid #fff;
   border-radius: 10px;
   margin: 10px;
 }
@@ -217,7 +221,7 @@
 #es-rc #es-rc-content .es-perfect__background-text {
   font-family: "HurmeGeometricSans3-Bold", sans-serif;
   color: #E2D7CE;
-  font-size: 110px;
+  font-size: 125px;
   position: absolute;
   top: 18%;
   left: 0;
@@ -234,7 +238,7 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 #es-rc #es-rc-content .es-perfect__wrapper .es-perfect__single {
   display: flex;
@@ -261,6 +265,7 @@
 #es-rc #es-rc-content .es-bottle {
   margin-top: 40px;
   margin-bottom: 20px;
+  color: #fff;
 }
 #es-rc #es-rc-content .es-bottle__wrapper {
   display: flex;
@@ -273,8 +278,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FBEA71;
-  border: 1px solid #FBEA71;
+  background-color: #f16e20;
+  border: 1px solid #f16e20;
   border-radius: 50%;
   font-family: "HurmeGeometricSans3-Bold", sans-serif;
   text-align: center;
@@ -303,23 +308,25 @@
   height: 320px;
 }
 #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single:nth-child(3) .es-bottle__single-wrapper .es-bottle__text {
-  padding: 0 35px;
+  padding: 0 45px;
 }
-#es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single .es-bottle__circle1 {
+#es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single .es-bottle__leaf1 {
   position: absolute;
   display: none;
-  bottom: 18%;
+  bottom: 30%;
   left: -21%;
   max-width: 140px;
   z-index: -1;
+  transform: rotate(217deg);
 }
-#es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single .es-bottle__circle2 {
+#es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single .es-bottle__leaf2 {
   position: absolute;
   display: none;
-  top: 12%;
-  right: -2%;
+  top: 23%;
+  right: -12%;
   max-width: 110px;
-  z-index: 1;
+  z-index: -1;
+  transform: rotate(-85deg) scaleX(-1);
 }
 #es-rc #es-rc-content .es-day__text {
   width: 80%;
@@ -440,10 +447,10 @@
   max-height: 300px;
   margin-bottom: 30px;
 }
-#es-rc #es-rc-content .es-adventure__wrapper .es-adventure__circle1 {
+#es-rc #es-rc-content .es-adventure__wrapper .es-adventure__leaf1 {
   display: none;
 }
-#es-rc #es-rc-content .es-adventure__wrapper .es-adventure__circle2 {
+#es-rc #es-rc-content .es-adventure__wrapper .es-adventure__leaf2 {
   display: none;
 }
 #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__top-row {
@@ -534,8 +541,8 @@
     margin-top: -40px;
   }
   #es-rc #es-rc-content .es-change__background {
-    background-color: #FBEA71;
-    border: 1px solid #FBEA71;
+    background-color: #f16e20;
+    border: 1px solid #f16e20;
     border-radius: 50%;
     width: 140%;
     height: 110%;
@@ -561,8 +568,8 @@
   #es-rc #es-rc-content .es-change__wrapper .es-change__single-dot {
     width: 20px;
     height: 20px;
-    background-color: #F7B800;
-    border: 1px solid #F7B800;
+    background-color: #fff;
+    border: 1px solid #fff;
     border-radius: 10px;
     margin: 10px;
   }
@@ -621,7 +628,7 @@
     max-width: 250px;
   }
   #es-rc #es-rc-content .es-one-soda__wrapper-outer .es-one-soda__wrapper .es-one-soda__single-title {
-    font-size: 25px;
+    font-size: 34px;
     margin-top: 20px;
   }
   #es-rc #es-rc-content .es-one-soda__wrapper-outer .es-one-soda__text {
@@ -682,13 +689,10 @@
     height: 290px;
   }
   #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single:nth-child(3) .es-bottle__single-wrapper .es-bottle__text {
-    padding: 0 35px;
+    padding: 0 45px;
   }
   #es-rc #es-rc-content .es-day__text {
     width: 60%;
-  }
-  #es-rc #es-rc-content .es-adventure {
-    padding: 10px;
   }
   #es-rc #es-rc-content .es-adventure .es-h2 {
     margin: 20px 0 30px 0;
@@ -696,8 +700,8 @@
   #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__tonic {
     width: 470px;
     height: 470px;
-    background-color: #FBEA71;
-    border: 1px solid #FBEA71;
+    background-color: #f16e20;
+    border: 1px solid #f16e20;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -759,7 +763,7 @@
 }
 @media (min-width: 980px) {
   #es-rc #es-rc-content .es-kv__wrapper .es-kv__left .es-h1 {
-    font-size: 50px;
+    font-size: 48px;
   }
   #es-rc #es-rc-content .es-kv__wrapper .es-kv__left .es-kv__p {
     margin-top: 30px;
@@ -776,11 +780,11 @@
     right: 0;
     z-index: 0;
   }
-  #es-rc #es-rc-content .es-change__circle1 {
+  #es-rc #es-rc-content .es-change__leaf1 {
     display: block;
     position: absolute;
-    left: 0;
-    top: -50px;
+    left: 13%;
+    bottom: 0;
     width: 10%;
   }
   #es-rc #es-rc-content .es-change__wrapper .es-change__single-title {
@@ -791,21 +795,31 @@
     position: relative;
     z-index: 1;
   }
-  #es-rc #es-rc-content .es-change__circle2 {
+  #es-rc #es-rc-content .es-change__leaf2 {
     display: block;
     position: absolute;
-    left: 30%;
-    bottom: 35%;
+    left: 34%;
+    bottom: 17%;
     width: 200px;
     z-index: -1;
   }
-  #es-rc #es-rc-content .es-change__circle3 {
+  #es-rc #es-rc-content .es-change__leaf3 {
     display: block;
     position: absolute;
-    right: 0;
-    bottom: 25%;
+    right: 5%;
+    bottom: 27%;
     width: 190px;
     z-index: -1;
+    transform: rotate(-90deg) scaleX(-1);
+  }
+  #es-rc #es-rc-content .es-change__leaf4 {
+    display: block;
+    position: absolute;
+    left: 55%;
+    bottom: 0%;
+    width: 200px;
+    z-index: -1;
+    transform: rotate(0deg);
   }
   #es-rc #es-rc-content .es-one-soda__wrapper-outer {
     position: relative;
@@ -835,10 +849,10 @@
     height: 330px;
     font-size: 18px;
   }
-  #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single .es-bottle__circle1 {
+  #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single .es-bottle__leaf1 {
     display: block;
   }
-  #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single .es-bottle__circle2 {
+  #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single .es-bottle__leaf2 {
     display: block;
   }
   #es-rc #es-rc-content .es-day__wrapper {
@@ -921,21 +935,23 @@
   #es-rc #es-rc-content .es-bubble__background {
     display: none;
   }
-  #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__circle1 {
+  #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__leaf1 {
     display: block;
     width: 140px;
     position: absolute;
-    top: 26%;
-    right: 38%;
-    z-index: 2;
+    top: 49%;
+    right: 22%;
+    z-index: 0;
+    transform: rotate(268deg) scaleX(-1);
   }
-  #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__circle2 {
+  #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__leaf2 {
     display: block;
     width: 110px;
     position: absolute;
-    top: 52%;
-    left: 30%;
-    z-index: 2;
+    top: 35%;
+    left: 23%;
+    z-index: 0;
+    transform: rotate(-125deg);
   }
 }
 @media (min-width: 1100px) {
@@ -943,10 +959,12 @@
     margin-right: -90px;
   }
   #es-rc #es-rc-content .es-day__wrapper .es-day__wrapper-blue-background {
-    height: 135%;
+    height: 120%;
   }
   #es-rc #es-rc-content .es-day__wrapper .es-day__wrapper-blue-background .es-day__single-text {
     font-size: 16px;
     max-width: 300px;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
